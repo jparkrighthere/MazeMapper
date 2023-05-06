@@ -1,0 +1,24 @@
+digraph maze2 {
+    A -> B [label=5];
+    A -> C [label=2];
+    B -> D [label=3];
+    B -> E [label=7];
+    C -> E [label=6];
+    D -> F [label=1];
+    E -> F [label=9];
+    E -> G [label=4];
+    F -> G [label=3];
+    G -> H [label=5];
+    H -> I [label=2];
+    I -> J [label=7];
+    J -> K [label=6];
+    H -> L [label=4];
+    L -> M [label=8];
+    M -> N [label=1];
+    K -> N [label=3];
+    J -> M [label=5];
+    A -> D [label=6];
+    C -> B [label=4];
+    C -> G [label=7];
+    E -> I [label=8];
+}

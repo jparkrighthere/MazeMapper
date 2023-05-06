@@ -1,0 +1,14 @@
+digraph maze1 {
+    A -> B [label=5];
+    A -> C [label=2];
+    B -> D [label=3];
+    B -> E [label=7];
+    C -> E [label=6];
+    D -> F [label=1];
+    E -> F [label=9];
+    E -> N [label=4];
+    F -> N [label=3];
+    A -> D [label=6];
+    C -> B [label=4];
+    C -> N [label=7];
+}
