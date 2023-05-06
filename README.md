@@ -1,4 +1,6 @@
-#MazeMapper
+MazeMapper
+
+
 This is a software application that allows users to solve and visualize mazes stored in the DOT format. 
 This application can be used by anyone who needs to solve a maze and understand its underlying structure.
 
